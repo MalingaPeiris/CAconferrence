@@ -75,7 +75,7 @@
   opacity: 0.80;
   border-radius: 5px;
   box-shadow: 8px 13px 25px 2px #888484c5;
-  filter: brightness(162%);
+  filter: brightness(79%);
   padding: 2%;
   margin-right: 10px;
   margin-left: 10px;
@@ -176,7 +176,7 @@
   width: 100%;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  background: rgba(255,255,255,0.5);
+  background: #ffffff;
   font-size: 14px;
   text-align: left;
 }
