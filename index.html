@@ -51,8 +51,10 @@
             <div class="d-flex justify-content-between regMemberCheckDiv"
                 id="personalDetailDiv"><input type="text" id="regCallName" class="regMemberId" placeholder="Call Name" required=""><button class="btn btn-primary regMemberCheckBtn" id="regDOB" type="button">Date of Birth</button></div>
             <div class="d-flex justify-content-between regMemberCheckDiv"
-                id="personalDetailDiv"><input type="text" id="regDesignation" class="regMemberId" placeholder="Designation" required=""><input type="text" id="regOrganization" class="regMemberId" placeholder="Organization" required=""></div>
-        </div>
+                id="personalDetailDiv"><input type="password" id="regPassword" class="regMemberId" placeholder="New Password"><input type="password" id="regCPassword" class="regMemberId" placeholder="Confirm New Password"><i class="fa fa-eye"></i><i class="fa fa-eye-slash"></i></div>
+            <div
+                class="d-flex justify-content-between regMemberCheckDiv" id="personalDetailDiv"><input type="text" id="regDesignation" class="regMemberId" placeholder="Designation" required=""><input type="text" id="regOrganization" class="regMemberId" placeholder="Organization" required=""></div>
+    </div>
     </div>
     <div class="d-flex flex-column personalDetailDiv">
         <p id="regcontactDetails" class="personalDetailPara">Contact Details</p>
@@ -143,6 +145,18 @@
         </div>
     </div>
     <div class="d-flex justify-content-end regNextButtonDiv" id="regPayButtons"><button class="btn btn-primary regMemberCheckBtn" id="regPayLaterButton" type="button">Pay Later</button><button class="btn btn-primary regMemberCheckBtn" id="regPayNowButton" type="button">Pay Now</button></div><i class="fa fa-window-close"></i></div>
+    </div>
+    <div class="d-flex justify-content-center justify-content-xl-center LoginDivMain">
+        <div class="loginDiv">
+            <h1 class="registerHeading">LOGIN WITH US</h1>
+            <p class="regIntroPara">&nbsp;WELCOME BACK</p>
+            <hr class="pulse animated regHr">
+            <div class="d-flex justify-content-between regMemberCheckDiv"><select class="memberSelect"><option value="12" selected="">CA Student</option><option value="13">CA Member</option><option value="14">International Participant</option><option value="15">Other</option></select><input type="text" class="regMemberId"
+                    placeholder="Student ID" required=""></div>
+            <div class="d-flex justify-content-between regMemberCheckDiv" id="passwordDiv"><input type="password" class="loginPassword" placeholder="Password"><i class="fa fa-eye"></i><i class="fa fa-eye-slash"></i><button class="btn btn-primary regMemberCheckBtn" id="loginButton" type="button">LOGIN</button></div><i class="fa fa-window-close"></i>
+            <a
+                class="d-xl-flex justify-content-xl-end registerLink" href="#">Not a User ? Register Here. . .</a>
+        </div>
     </div>
     <div>
         <div class="container">

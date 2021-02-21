@@ -172,7 +172,7 @@
   text-align: center;
   padding-right: 25px;
   border: 2px solid #ffffff ;
-  max-width: 300px;
+  max-width: 400px;
   width: 100%;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -486,5 +486,59 @@
   top: 10px;
   right: 10px;
   margin-top: 10px;
+}
+
+.memberSelect {
+  color: #216249;
+  border: 2px solid #ffffff ;
+}
+
+.loginPassword {
+  max-width: 400px;
+  width: 100%;
+  min-width: 280px;
+  border: 2px solid rgb(255,255,255) ;
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  color: #63595c;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#passwordDiv {
+  background: rgb(255,255,255);
+}
+
+#loginButton {
+  background: rgba(33,98,73,0.5);
+}
+
+.registerLink {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  text-align: right;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.registerLink:hover {
+  color: #41bb18;
+  font-family: Montserrat, sans-serif;
+  text-align: right;
+  text-decoration: none;
+}
+
+#regPassword {
+}
+
+#regCPassword {
+}
+
+.fa.fa-eye-slash {
+  background: #ffffff;
+}
+
+.fa.fa-eye {
+  background: #ffffff;
 }
 
