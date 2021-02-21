@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,700,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
@@ -13,16 +15,135 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/adminPanel.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Table-Fixed-Header.css">
     <link rel="stylesheet" href="assets/css/cards.css">
     <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="assets/css/Loading-Div.css">
     <link rel="stylesheet" href="assets/css/Parallax-Effect-Template-Landing-Page-Bootstrap-4-1.css">
     <link rel="stylesheet" href="assets/css/Parallax-Effect-Template-Landing-Page-Bootstrap-4.css">
+    <link rel="stylesheet" href="assets/css/Search-Field-With-Icon.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body><button class="btn btn-primary registerButton" type="button">REGISTER NOW</button>
+    <div class="d-flex justify-content-center justify-content-xl-center LoginDivMain">
+        <div class="loginDiv">
+            <h1 class="registerHeading">REGISTER EARLY</h1>
+            <p class="regIntroPara">&nbsp;BEFORE ITS TOO LATE</p>
+            <hr class="pulse animated regHr">
+            <div class="d-flex justify-content-center align-items-center regNav">
+                <div class="d-flex justify-content-between regNavDiv1"><label class="d-flex regNavLabel-active">PARTICIPANT</label><label class="regNavLabel">EVENT</label></div>
+                <div class="d-flex justify-content-between regNavDiv2"><label class="regNavLabel">PAYMENT</label><label class="regNavLabel">PREFERENCE</label></div>
+            </div>
+            <div class="d-flex justify-content-between regMemberCheckDiv">
+                <div class="dropdown memberDrop"><button class="btn btn-primary dropdown-toggle regMemberDrop" data-toggle="dropdown" aria-expanded="false" type="button" style="background: #ffffff;color: #216249;font-weight: bold;border-radius: 0px;font-family: Poppins, sans-serif;border: 2px solid #ffffff ;">CA Student</button>
+                    <div
+                        class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+            </div><input type="text" class="regMemberId" placeholder="Student ID" required=""><button class="btn btn-primary regMemberCheckBtn" type="button">Check</button></div>
+        <div class="d-flex flex-column personalDetailDiv">
+            <p class="personalDetailPara">Personal Details</p>
+            <div>
+                <div class="d-flex justify-content-between regMemberCheckDiv" id="personalDetailDiv">
+                    <div class="dropdown memberDrop"><button class="btn btn-primary dropdown-toggle regMemberDrop" data-toggle="dropdown" aria-expanded="false" type="button" style="background: #ffffff;color: #216249;font-weight: bold;border-radius: 0px;font-family: Poppins, sans-serif;border: 2px solid #ffffff ;">Title</button>
+                        <div
+                            class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                </div><input type="text" id="regInitials" class="regMemberId" placeholder="Initials" required=""><input type="text" id="RegLastName" class="regMemberId" placeholder="Last Name" required=""></div>
+            <div class="d-flex justify-content-between regMemberCheckDiv"
+                id="personalDetailDiv"><input type="text" id="regCallName" class="regMemberId" placeholder="Call Name" required=""><button class="btn btn-primary regMemberCheckBtn" id="regDOB" type="button">Date of Birth</button></div>
+            <div class="d-flex justify-content-between regMemberCheckDiv"
+                id="personalDetailDiv"><input type="text" id="regDesignation" class="regMemberId" placeholder="Designation" required=""><input type="text" id="regOrganization" class="regMemberId" placeholder="Organization" required=""></div>
+        </div>
+    </div>
+    <div class="d-flex flex-column personalDetailDiv">
+        <p id="regcontactDetails" class="personalDetailPara">Contact Details</p>
+        <div>
+            <div class="d-flex justify-content-between regMemberCheckDiv" id="personalDetailDiv"><input type="text" id="regEmail" class="regMemberId" placeholder="Email" required="" inputmode="email"></div>
+            <div class="d-flex justify-content-between regMemberCheckDiv" id="personalDetailDiv"><input type="text" id="regPhone" class="regMemberId" placeholder="Phone" required=""></div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between regNextButtonDiv"><button class="btn btn-primary regMemberCheckBtn" id="regNextButton" type="button">Back</button><button class="btn btn-primary regMemberCheckBtn" id="regNextButton-1" type="button">Next</button></div>
+    <div class="d-flex flex-column personalDetailDiv">
+        <p id="regSessionSelection" class="personalDetailPara">Event day, Session and Type Selection</p>
+        <div>
+            <div class="d-flex justify-content-between regMemberCheckDiv" id="eventDaysDiv">
+                <div class="dropdown memberDrop" id="eventDrop"><button class="btn btn-primary dropdown-toggle d-flex regMemberDrop" data-toggle="dropdown" aria-expanded="false" id="eventDayDrop" type="button" style="background: #ffffff;color: #216249;font-weight: bold;border-radius: 0px;font-family: Poppins, sans-serif;border: 2px solid #ffffff ;">Event Day(s)</button>
+                    <div
+                        class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between regMemberCheckDiv" id="eventDaysDiv">
+            <div class="dropdown memberDrop" id="eventDrop"><button class="btn btn-primary dropdown-toggle d-flex regMemberDrop" data-toggle="dropdown" aria-expanded="false" id="eventDayDrop" type="button" style="background: #ffffff;color: #216249;font-weight: bold;border-radius: 0px;font-family: Poppins, sans-serif;border: 2px solid #ffffff ;">Event Session(s)</button>
+                <div
+                    class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between regMemberCheckDiv" id="eventDaysDiv">
+        <div class="dropdown memberDrop" id="eventDrop"><button class="btn btn-primary dropdown-toggle d-flex regMemberDrop" data-toggle="dropdown" aria-expanded="false" id="eventDayDrop" type="button" style="background: #ffffff;color: #216249;font-weight: bold;border-radius: 0px;font-family: Poppins, sans-serif;border: 2px solid #ffffff ;">Event Type</button>
+            <div
+                class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="d-flex flex-column personalDetailDiv">
+        <p id="regContactMethod" class="personalDetailPara">Preferred Food and Contact Method</p>
+        <div>
+            <div class="d-flex justify-content-between regMemberCheckDiv" id="eventDaysDiv">
+                <div class="dropdown memberDrop" id="eventDrop"><button class="btn btn-primary dropdown-toggle d-flex regMemberDrop" data-toggle="dropdown" aria-expanded="false" id="eventDayDrop" type="button" style="background: #ffffff;color: #216249;font-weight: bold;border-radius: 0px;font-family: Poppins, sans-serif;border: 2px solid #ffffff ;">Preferred Contact Method</button>
+                    <div
+                        class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="d-flex flex-column personalDetailDiv">
+        <p id="regFutureEvents" class="personalDetailPara">Preferences for Future Events (optional)</p>
+        <div>
+            <div class="d-flex justify-content-between regMemberCheckDiv" id="eventDaysDiv">
+                <div class="dropdown memberDrop" id="eventDrop"><button class="btn btn-primary dropdown-toggle d-flex regMemberDrop" data-toggle="dropdown" aria-expanded="false" id="eventDayDrop" type="button" style="background: #ffffff;color: #216249;font-weight: bold;border-radius: 0px;font-family: Poppins, sans-serif;border: 2px solid #ffffff ;">Preferred Future Events</button>
+                    <div
+                        class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="d-flex flex-column personalDetailDiv">
+        <p id="regParticipantDetails" class="personalDetailPara">Participant Details</p>
+        <div class="d-flex justify-content-start regMemberCheckDiv" id="regPaymentDetails">
+            <p id="regNoPara" class="regPaymentDeatilsPara">Registration No:</p>
+            <p id="regNoInfo" class="regPaymentDeatilsPara">Paragraph</p>
+        </div>
+        <div class="d-flex justify-content-start regMemberCheckDiv" id="regPaymentDetails">
+            <p id="regNamePara" class="regPaymentDeatilsPara">Name:</p>
+            <p id="regNameInfo" class="regPaymentDeatilsPara">Paragraph</p>
+        </div>
+        <div class="d-flex justify-content-start regMemberCheckDiv" id="regPaymentDetails">
+            <p id="regEmailPara" class="regPaymentDeatilsPara">Email:</p>
+            <p id="regEmailInfo" class="regPaymentDeatilsPara">Paragraph</p>
+        </div>
+        <div class="d-flex justify-content-start regMemberCheckDiv" id="regPaymentDetails">
+            <p id="regPhonePara" class="regPaymentDeatilsPara">Phone:</p>
+            <p id="regPhoneInfo" class="regPaymentDeatilsPara">Paragraph</p>
+        </div>
+    </div>
+    <div class="d-flex flex-column personalDetailDiv">
+        <p id="regParticipantDetails" class="personalDetailPara">Payment Details</p>
+        <div class="d-flex justify-content-start regMemberCheckDiv" id="regPaymentDetails1">
+            <p id="regNoPara" class="regPaymentDeatilsPara">Event &amp; Session:</p>
+            <p id="regEvent" class="regPaymentDeatilsPara">Virtual Session</p>
+            <p id="regpaymentAmount" class="regPaymentDeatilsPara">LKR 65 000</p>
+        </div>
+        <div class="d-flex justify-content-end regMemberCheckDiv" id="regPaymentdiscountDiv">
+            <p id="regDiscountPara" class="regPaymentDeatilsPara">Discount</p>
+            <p id="regDiscountAmount" class="regPaymentDeatilsPara">0%</p>
+        </div>
+        <div class="d-flex justify-content-end regMemberCheckDiv" id="regPaymentDetails2">
+            <p id="regEmailPara-1" class="regPaymentDeatilsPara">---------------<br>Total Payable<br>---------------</p>
+            <p id="regEmailInfo-1" class="regPaymentDeatilsPara">----------------<br>LKR 65 000<br>----------------</p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end regNextButtonDiv" id="regPayButtons"><button class="btn btn-primary regMemberCheckBtn" id="regPayLaterButton" type="button">Pay Later</button><button class="btn btn-primary regMemberCheckBtn" id="regPayNowButton" type="button">Pay Now</button></div><i class="fa fa-window-close"></i></div>
+    </div>
     <div>
         <div class="container">
             <h2 style="margin-top:52px;margin-left:34px;font-family:'Open Sans', sans-serif;font-size:22px;font-weight:800;line-height:32px;color:rgb(0,0,0);">Messages From The Organizers</h2>
@@ -96,6 +217,11 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <script src="assets/js/Bootstrap-DataTables.js"></script>
     <script src="assets/js/Counting.js"></script>
     <script src="assets/js/Horizontal-Parallax.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>

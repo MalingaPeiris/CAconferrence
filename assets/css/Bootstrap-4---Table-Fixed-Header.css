@@ -1,0 +1,46 @@
+.table-fixed tbody {
+  height: 500px;
+  overflow-y: auto;
+  width: 800px;
+}
+
+.container.py-5 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.table-responsive {
+  width: 950px;
+  display: flex;
+  justify-items: center;
+}
+
+.table-fixed thead .table-fixed tbody {
+  width: 950px;
+  display: flex;
+  justify-items: center;
+}
+
+.userEmail {
+  overflow-x: scroll;
+  overflow: hidden;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+  width: 950px;
+}
+
+.table-fixed tbody td, .table-fixed tbody th, .table-fixed thead > tr > th {
+  float: left;
+  position: relative;
+}
+
+#emailAddress {
+}
+
+.messageBodyPara.messageTime {
+  text-align: right;
+}
+
