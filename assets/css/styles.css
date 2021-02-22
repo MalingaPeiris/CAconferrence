@@ -722,3 +722,7 @@
   margin-top: 0px;
 }
 
+.galleryContainer {
+  max-width: 1800px;
+}
+
