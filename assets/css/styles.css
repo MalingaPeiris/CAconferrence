@@ -542,3 +542,183 @@
   background: #ffffff;
 }
 
+.organizerMessagPara {
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+  color: #63595c;
+  margin-left: 24px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-family: Poppins, sans-serif;
+}
+
+.organizersHeading {
+  margin-top: 52px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #868180;
+  font-family: Montserrat, sans-serif;
+}
+
+.organizerHr {
+  height: 4px;
+  width: 200px;
+  background: repeating-linear-gradient(43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  border-radius: 100px;
+}
+
+.orgHrDiv {
+  width: 30px;
+}
+
+.orgReadMoreLink:hover {
+  color: #216249;
+  text-decoration: none;
+}
+
+.orgReadMoreHr {
+  height: 1px;
+  max-width: 100%;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.orgReadMoreHr:hover {
+  height: 1px;
+  max-width: 100%;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #41bb18;
+}
+
+.orgReadMorePara {
+  width: 100px;
+  color: #868180;
+  font-family: Armata, sans-serif;
+  font-size: 12px;
+}
+
+.orgReadMorePara:hover {
+  width: 100px;
+  color: #216249;
+  font-family: Armata, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.organizerLetterMainDiv {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.orgLetterDiv {
+  width: 100%;
+  max-width: 800px;
+  min-width: 280px;
+  border-radius: 5px;
+  border: 2px solid #41bb18 ;
+  margin: 50px;
+  margin-bottom: 50px;
+  box-shadow: 8px 13px 25px #D9D9D982;
+}
+
+.orgLetterHeading {
+  color: rgb(255,255,255);
+  background: repeating-linear-gradient(43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-family: Lato, sans-serif;
+  margin-bottom: 20px;
+}
+
+.orgLetterImageRow {
+  margin: 0px;
+}
+
+.orgLetterImage {
+  width: 250px;
+  height: 250px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  margin-right: 5%;
+}
+
+@media (max-width: 576px) {
+  .orgLetterImage {
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    box-shadow: 8px 13px 25px #D9D9D982;
+    margin-right: 3%;
+  }
+}
+
+.orgLetterName {
+  background: repeating-linear-gradient(43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  color: rgb(255,255,255);
+  border-radius: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 3%;
+  min-width: 200px;
+  margin-bottom: 0px;
+}
+
+.orgLetterImgCol {
+  max-width: 300px;
+}
+
+.orgLetterPara {
+  font-size: 14px;
+  color: #868180;
+  font-family: Poppins, sans-serif;
+  text-align: left;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.orgLetterSubDiv {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.orgLetterSignDiv {
+  padding-left: 5%;
+}
+
+.orgLetterSignPara {
+  color: #63595c;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  line-height: 19px;
+}
+
+#orgLetterClose {
+  position: relative;
+  color: #216249;
+  margin-left: 50%;
+}
+
+#orgLetterClose1 {
+  position: initial;
+  color: #216249;
+  margin-left: 95%;
+  margin-top: 0px;
+}
+
