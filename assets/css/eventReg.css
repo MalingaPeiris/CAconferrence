@@ -1,0 +1,110 @@
+.eventRegBlock {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.eventRegHeading {
+  color: rgb(67,67,67);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.eventRegPara {
+  color: #868180;
+  margin-bottom: 5px;
+}
+
+#enventRegHr {
+  margin-left: 0px;
+}
+
+.eventRegDiv {
+  max-width: 360px;
+  max-height: 160px;
+  min-width: 280px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd ;
+}
+
+.eventRegCol2 {
+  padding: 0px;
+}
+
+.eventSocialDiv {
+  height: 80px;
+}
+
+.fa.fa-facebook-official {
+}
+
+.fa.fa-twitter-square {
+  color: rgb(92,174,220);
+  font-size: 30px;
+}
+
+.eventRegSocialLink {
+  margin-right: 10px;
+}
+
+.eventRegPara2 {
+  color: #868180;
+  text-align: center;
+}
+
+#twitter {
+  margin: 0px;
+}
+
+#linkdin {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.eventRegContainer {
+  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  padding: 3%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .eventRegContainer {
+    background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+    padding: 3%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+}
+
+.eventRegHeading2 {
+  color: rgb(255,255,255);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#enventRegHr2 {
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.eventRegButton {
+  background: #ffffff;
+  color: #63595c;
+  border-style: none;
+  border-color: #63595c;
+  border-radius: 5px;
+  max-width: 125px;
+  min-width: 80px;
+  width: 100%;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .eventRegCol2 {
+    padding: 5%;
+  }
+}
+

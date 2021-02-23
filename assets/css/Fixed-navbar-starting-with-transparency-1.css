@@ -187,6 +187,8 @@
 .nav-item {
   height: 30px;
   margin-right: 25px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-item:hover {

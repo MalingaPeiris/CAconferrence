@@ -44,16 +44,14 @@
   color: #666;
 }
 
-.btn {
-  border-radius: 30px 30px 30px 30px;
-}
-
 .ptext {
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
+  max-width: 1920px;
   width: 100%;
+  min-width: 320px;
   text-align: center;
   color: #ffffff;
   font-size: 27px;

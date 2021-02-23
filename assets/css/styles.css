@@ -3,9 +3,9 @@
 }
 
 .registerButton {
-  max-width: 145px;
+  max-width: 130px;
   width: 100%;
-  min-width: 80px;
+  min-width: 60px;
   background: rgb(33,98,73);
   background: radial-gradient(circle, rgba(33,98,73,1) 0%, rgba(55,158,40,1) 49%, rgba(65,187,24,1) 100%);
   font-family: Poppins, sans-serif;
@@ -18,9 +18,9 @@
 }
 
 .registerButton:active {
-  max-width: 145px;
+  max-width: 130px;
   width: 100%;
-  min-width: 80px;
+  min-width: 60px;
   background: rgb(33,98,73);
   background: radial-gradient(circle, rgba(33,98,73,1) 0%, rgba(55,158,40,1) 49%, rgba(65,187,24,1) 100%);
   font-family: Poppins, sans-serif;
@@ -33,9 +33,9 @@
 }
 
 .registerButton:focus {
-  max-width: 145px;
+  max-width: 130px;
   width: 100%;
-  min-width: 80px;
+  min-width: 60px;
   background: rgb(33,98,73);
   background: radial-gradient(circle, rgba(33,98,73,1) 0%, rgba(55,158,40,1) 49%, rgba(65,187,24,1) 100%);
   font-family: Poppins, sans-serif;
@@ -48,9 +48,9 @@
 }
 
 .registerButton:hover {
-  max-width: 145px;
+  max-width: 130px;
   width: 100%;
-  min-width: 80px;
+  min-width: 60px;
   background: rgb(33,98,73);
   background: radial-gradient(circle, rgba(33,98,73,1) 0%, rgba(55,158,40,1) 49%, rgba(65,187,24,1) 100%);
   font-family: Poppins, sans-serif;
@@ -724,5 +724,7 @@
 
 .galleryContainer {
   max-width: 1800px;
+  min-width: 320px;
+  width: 100%;
 }
 

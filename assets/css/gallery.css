@@ -1,6 +1,10 @@
 .galleyBlock {
   background: #f7f7f7;
-  padding-top: 20px;
+  padding-top: 50px;
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  padding-bottom: 50px;
 }
 
 .galleryHeading {
