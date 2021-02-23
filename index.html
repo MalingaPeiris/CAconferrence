@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency-1.css">
     <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency.css">
     <link rel="stylesheet" href="assets/css/adminPanel.css">
@@ -25,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/Carousel_Image_Slider-1.css">
     <link rel="stylesheet" href="assets/css/Carousel_Image_Slider.css">
     <link rel="stylesheet" href="assets/css/Client-Slider-1.css">
+    <link rel="stylesheet" href="assets/css/contactUs.css">
     <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
     <link rel="stylesheet" href="assets/css/eventReg.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
@@ -34,6 +33,7 @@
     <link rel="stylesheet" href="assets/css/Parallax-Effect-Template-Landing-Page-Bootstrap-4-1.css">
     <link rel="stylesheet" href="assets/css/Parallax-Effect-Template-Landing-Page-Bootstrap-4.css">
     <link rel="stylesheet" href="assets/css/Search-Field-With-Icon.css">
+    <link rel="stylesheet" href="assets/css/simple-sticky-footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -293,11 +293,11 @@
     <div class="ptext ">
       <span class=" trans  ">
           
-          Always live with the world<i class="fa fa-Calendar" aria-hidden="true"></i>
+          Always live with the world
         <h1>Don't forget to attend this event,</h1> <br>
           Add to your calendar now!
-          <hr><div>
-          <i class="fas fa-Calendar-alt" ></i></div>
+          <hr><a class="calendarLink" href="#"><div class="calenderView">
+          <i class="fa fa-calendar" ></i></div></a>
           
       </span>
     </div>
@@ -476,7 +476,7 @@
                     <h1 class="eventRegHeading">Event Registration</h1>
                     <hr id="enventRegHr" class="organizerHr">
                 </div>
-                <div class="col-md-6 d-flex d-xl-flex justify-content-end justify-content-xl-end eventRegCol2">
+                <div class="col-md-6 d-flex d-xl-flex justify-content-end justify-content-sm-center justify-content-xl-end eventRegCol2">
                     <div class="eventRegDiv">
                         <div class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center eventSocialDiv"><a class="eventRegSocialLink" href="#"><i class="fa fa-facebook-official" style="font-size: 30px;color: rgb(55,86,167);"></i></a><a id="twitter" class="eventRegSocialLink" href="#"><i class="fa fa-twitter-square"></i></a><a id="linkdin"
                                 class="eventRegSocialLink" href="#"><i class="fa fa-linkedin-square" style="font-size: 30px;color: rgb(55,86,167);"></i></a></div>
@@ -488,7 +488,39 @@
     </div>
     <div class="container d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center eventRegContainer">
         <h1 class="text-uppercase text-center eventRegHeading2">register early<br>before its too late.</h1>
-        <hr id="enventRegHr2" class="organizerHr"><button class="btn btn-primary eventRegButton" type="button">Register</button></div>
+        <hr id="enventRegHr2" class="organizerHr"><button class="btn btn-primary eventRegButton" type="button">Register</button></div>  <div class="ParalaxImage3 ">
+    <div class="ptext ">
+      <span class=" trans  ">
+          
+          <h5> Don't worry we love to help </h5>
+          <strong><h2>Get In Touch With Us</h2></strong>
+          
+        <div id="contactUsDiv" class="d-flex justify-content-between regMemberCheckDiv">
+            <input id="contactUsFullName" class="contactUsTxt" type="text" placeholder="Full Name *" required/>
+            <input id="contactUsEmail" class="contactUsTxt" type="text" placeholder="Email *" required/>
+          </div>
+          
+          <div id="personalDetailDiv" class="d-flex justify-content-between regMemberCheckDiv">
+            <input id="contactUsPhone" class="regMemberId" type="text" placeholder="Phone *" required/>
+            <input id="contactUsSubject" class="regMemberId" type="text" placeholder="Subject *" required/>
+          </div>
+          
+          
+          <div id="personalDetailDiv" class="d-flex justify-content-between regMemberCheckDiv">
+            <textarea id="contactUsMessage" class="regMemberId" type="text" placeholder="Message *" required></textarea> 
+          </div>
+          
+          
+          <button id="contactUsSendButton" class="regMemberCheckBtn" type="button">Send Now</button>
+          
+      </span>
+    </div>
+  </div>
+
+
+    <footer class="d-flex d-xl-flex justify-content-start justify-content-xl-start footer">
+        <div class="container footerContainer"><span class="text-muted">Copyright 2021. All Right Reserved.<br></span></div>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
@@ -501,7 +533,6 @@
     <script src="assets/js/Client-Slider-1.js"></script>
     <script src="assets/js/Counting.js"></script>
     <script src="assets/js/Fixed-navbar-starting-with-transparency.js"></script>
-    <script src="assets/js/Horizontal-Parallax.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js&quot; type=&quot;text/javascript"></script>
 </body>

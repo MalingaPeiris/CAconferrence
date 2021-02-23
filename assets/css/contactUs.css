@@ -1,0 +1,63 @@
+#contactUsPhone {
+  border: 1px solid #cbcbcb;
+}
+
+#contactUsSubject {
+  border: 1px solid #cbcbcb;
+}
+
+#contactUsEmail {
+  border: 1px solid #cbcbcb;
+}
+
+#contactUsFullName {
+  border: 1px solid #cbcbcb;
+  max-width: 550px;
+}
+
+#contactUsMessage {
+  border: 1px solid #cbcbcb;
+  height: 150px;
+  display: flex;
+  text-align: start;
+  align-items: start;
+  resize: none;
+  max-width: 545px;
+  min-width: 250px;
+  width: 100%;
+}
+
+#contactUsSendButton {
+  margin-top: 10px;
+  opacity: 1;
+  background-color: #ffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#contactUsSendButton:hover {
+  margin-top: 10px;
+  opacity: 1;
+  background-color: #41bb18;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.contactUsTxt {
+  max-width: 850px;
+  min-width: 250px;
+  width: 100%;
+  color: #63595c;
+  text-align: center;
+  padding-right: 25px;
+  border: 2px solid #ffffff;
+  max-width: 400px;
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background: #ffffff;
+  font-size: 14px;
+  text-align: left;
+}
+
