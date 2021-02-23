@@ -1,0 +1,188 @@
+.agendaContainer {
+  margin-top: 200px;
+}
+
+.agendaMainHeading {
+  color: #434343;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#agendaMainHr {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.agendaMainDiv {
+  max-width: 1110px;
+  min-width: 280px;
+  width: 100%;
+  padding-top: 40px;
+  background: #f7f7f7;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding-bottom: 40px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.agendaDateHeading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.agendaGMTpara {
+  color: #216249;
+  font-family: Poppins, sans-serif;
+  max-width: 100px;
+  width: 100%;
+  min-width: 80px;
+}
+
+.agendaVirtualPara {
+  cursor: pointer;
+  box-shadow: 8px 13px 25px #D9D9D982;
+}
+
+.agendaSessionDiv {
+  max-width: 800px;
+  min-width: 280px;
+  width: 100%;
+  margin-top: 50px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.agendaSessionTimeDiv {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+  .agendaSessionTimeDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.agendaSessionTimePara {
+  color: #868180;
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: -10px;
+}
+
+.agendaSessionTypePara {
+  color: #216249;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.agendaWatchButton {
+  max-width: 150px;
+  width: 100%;
+  min-width: 60px;
+  background: #216249;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1px 10px 2px #ebebeb;
+  filter: contrast(120%);
+  font-size: 12px;
+  text-align: center;
+}
+
+.agendaWatchButton:hover {
+  max-width: 150px;
+  width: 100%;
+  min-width: 60px;
+  background: rgb(33,98,73);
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1px 10px 2px #ebebeb;
+  filter: contrast(120%);
+  font-size: 12px;
+  text-align: center;
+  background: radial-gradient(circle, rgba(33,98,73,1) 0%, rgba(55,158,40,1) 49%, rgba(65,187,24,1) 100%);
+}
+
+.fa.fa-youtube-play {
+  font-size: 19px;
+}
+
+.agendaHr {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.agendaSessionPersonPosition {
+  color: #868180;
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+  margin-top: 10px;
+}
+
+.agendaSessionPersonImgDiv {
+}
+
+.agendaSessionPersonDiv {
+}
+
+.agendaSessionPersonImg {
+  width: 64px;
+  height: 64px;
+  border-radius: 70%;
+  object-fit: contain;
+  border-style: solid;
+  border-color: rgba(65,187,24,0.3);
+}
+
+.agendaSessionPersonRow {
+  margin-top: 20px;
+}
+
+.agendaSessionPersonCol {
+  max-width: 370px;
+  min-width: 280px;
+  padding-top: 20px;
+  margin-right: 10px;
+}
+
+.agendaSessionPersonNameDiv {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.agendaSessionPersonNamePara {
+  margin-bottom: -10px;
+  color: #63595c;
+  font-family: Poppins, sans-serif;
+}
+
+.agendaSessionPersonRolePara {
+  color: #868180;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+
+.agendaSessionRecordPara {
+  position: relative;
+  width: 120px;
+  color: rgb(255,255,255);
+  background: #216249;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+}
+
