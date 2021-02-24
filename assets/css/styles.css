@@ -728,3 +728,22 @@
   width: 100%;
 }
 
+.wwaDiv {
+  padding: 20px;
+  background: #216249;
+}
+
+.row.clearmargin.clearpadding.row-image-txt {
+  margin-bottom: 100px;
+}
+
+#wwaHr {
+  margin-left: 0px;
+  background: rgb(255,255,255);
+}
+
+#visionPara {
+  text-align: center;
+  margin-bottom: 100px;
+}
+

@@ -1,0 +1,84 @@
+.investmentHeading {
+  color: #63595c;
+  font-size: 30px;
+}
+
+.investmentContainer {
+}
+
+.investmentintroPara {
+  color: #868180;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.investmentCategoryPara {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  background: #41bb18;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+}
+
+.investmentCategoryPara:hover {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  background: #41bb18;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#investmentCategoryContainer1 {
+}
+
+#overseas {
+  background: #216249;
+}
+
+.investmentAmountDiv {
+  max-width: 540px;
+  width: 100%;
+  min-width: 320px;
+  height: 250px;
+  background: #f7f7f7;
+}
+
+.investmentAmountDiv:hover {
+  max-width: 540px;
+  width: 100%;
+  min-width: 320px;
+  height: 250px;
+  background: #f7f7f7;
+  cursor: pointer;
+  background-image: url(../../assets/img/micheile-henderson-lZ_4nPFKcV8-unsplash.jpg);
+  color: #ffffff;
+  object-fit: contain;
+}
+
+.investmentAmountPara {
+  color: #63595c;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.investmentAmountDescPara {
+  color: #868180;
+  font-size: 25px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 10px;
+}
+
+#webcast {
+  font-size: 16px;
+  color: #216249;
+  margin-top: -10px;
+}
+
