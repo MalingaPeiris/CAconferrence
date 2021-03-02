@@ -1,0 +1,76 @@
+.wwaButtonBlock {
+  max-width: 1920px;
+  margin-bottom: 10px;
+  min-width: 320px;
+}
+
+.wwaButtonContainer {
+  max-width: 1920px;
+  min-width: 320px;
+}
+
+.pcButtonDiv {
+  max-width: 300px;
+  min-width: 280px;
+  position: relative;
+  background: repeating-linear-gradient(43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  height: 80px;
+  color: rgb(255,255,255);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0px;
+  position: relative;
+  background-size: 200%;
+  animation: change 2s infinite alternate;
+}
+
+@keyframes change {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.wwaLink {
+  max-width: 300px;
+  width: 100%;
+  min-width: 280px;
+}
+
+.wwaLink:hover {
+  max-width: 300px;
+  width: 100%;
+  min-width: 280px;
+  text-decoration: none;
+}
+
+.wwaButtonCol {
+  padding: 0px;
+  margin-top: 5px;
+}
+
+.wwaButtonPara {
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+
+#wwaButtonDiv {
+  right: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+}
+
+#pcButtonDiv {
+  left: 0px;
+}
+
+.wwaButtonCol2 {
+  padding: 0px;
+  margin-top: 5px;
+}
+

@@ -2,7 +2,7 @@
   min-height: 90px;
   box-shadow: none;
   border: none;
-  margin: 0;
+  margin-bottom: 100px;
   border-radius: 0;
   font-size: 16px;
   background: #ffffff;
@@ -12,6 +12,13 @@
   width: 100%;
   position: fixed;
   top: 0px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    top: 0px;
+  }
 }
 
 .navbar .navbar-nav > li > a, .navbar a.navbar-brand.navbar-link {
@@ -47,12 +54,12 @@
 }
 
 .navbar-brand img {
-  margin: 20px 0;
+  margin: 10px 0;
   max-height: 50px;
 }
 
 .navchange .navbar-brand img, .navbar-fixed-bottom .navbar-brand img {
-  margin: 10px 0;
+  margin: 20px 0;
   max-height: 40px;
   width: auto;
 }
@@ -130,7 +137,8 @@
 
 @media (max-width:767px) {
   .navbar {
-    position: relative !important;
+    position: fixed;
+    top: 0px;
   }
 }
 
@@ -176,16 +184,27 @@
 }
 
 .nav-link {
-  height: 20px;
+  height: 10px;
   color: #63595c;
   font-family: Montserrat, sans-serif;
-  font-size: 12px;
-  min-height: 20px;
-  max-height: 20px;
+  font-size: 16px;
+  min-height: 10px;
+  max-height: 10px;
+}
+
+@media (max-width: 1200px) {
+  .nav-link {
+    height: 10px;
+    color: #63595c;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    min-height: 10px;
+    max-height: 10px;
+  }
 }
 
 .nav-item {
-  height: 30px;
+  height: 40px;
   margin-right: 25px;
   display: flex;
   align-items: center;
@@ -206,5 +225,23 @@
 }
 
 .navLink {
+  font-size: 16px;
+  height: 10px;
+}
+
+@media (max-width: 1200px) {
+  .navLink {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
 }
 

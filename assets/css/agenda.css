@@ -1,5 +1,6 @@
 .agendaContainer {
-  margin-top: 200px;
+  margin-top: 50px;
+  padding-top: 200px;
 }
 
 .agendaMainHeading {
@@ -148,7 +149,7 @@
 }
 
 .agendaSessionPersonRow {
-  margin-top: 20px;
+  margin-top: -20px;
 }
 
 .agendaSessionPersonCol {
@@ -173,6 +174,7 @@
   color: #868180;
   font-family: Poppins, sans-serif;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .agendaSessionRecordPara {
@@ -184,5 +186,45 @@
   border-radius: 5px;
   font-family: Poppins, sans-serif;
   font-size: 12px;
+}
+
+#agendaItem {
+  margin-top: 0px;
+  color: #216249;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+#agendaHrHr {
+  margin-bottom: 20px;
+}
+
+#speech {
+  margin: 0px;
+}
+
+@media (max-width: 768px) {
+  #agendaPersonName {
+    margin-top: -30px;
+    margin-bottom: 40px;
+  }
+}
+
+.agendaClrDiv {
+  background: rgba(248,248,248,0.7);
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+#break {
+}
+
+#breakTime {
+  text-align: center;
+}
+
+#breakHeading {
+  text-align: center;
 }
 

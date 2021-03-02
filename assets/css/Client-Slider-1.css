@@ -181,13 +181,22 @@
 
 .speakersContainer {
   margin-bottom: 30px;
-  margin-top: 50px;
+  padding-top: 200px;
+}
+
+@media (max-width: 576px) {
+  .speakerHeading {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #63595c;
+    margin-bottom: 0px;
+  }
 }
 
 .speakerHeading {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: #63595c;
   margin-bottom: 0px;
 }

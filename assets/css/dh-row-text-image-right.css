@@ -18,3 +18,8 @@
   color: white;
 }
 
+.wwaImg {
+  width: 100%;
+  object-fit: contain;
+}
+

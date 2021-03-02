@@ -1,0 +1,122 @@
+.wwaBlock {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  margin-bottom: 200px;
+  padding-top: 200px;
+}
+
+.wwaContainer {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.wwaImg {
+  object-fit: cover;
+  width: 100%;
+}
+
+.wwaCol2 {
+  background: #216249;
+  padding: 30px;
+}
+
+@media (min-width: 1200px) {
+  .wwaCol2 {
+    background: #216249;
+    padding: 30px;
+    min-width: 600px;
+  }
+}
+
+.wwaHeading {
+  color: rgb(255,255,255);
+}
+
+.wwaPara {
+  color: rgb(255,255,255);
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 1500px) {
+  .wwaPara {
+    color: rgb(255,255,255);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+  }
+}
+
+.wwaCol1 {
+  padding: 0px;
+}
+
+.wwaRow {
+  display: flex;
+}
+
+@media (max-width: 1400px) {
+  .wwaRow {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#ourVision {
+}
+
+#ourMission {
+  margin-bottom: 200px;
+}
+
+#missionPara {
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 576px) {
+  #missionPara {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.whyJoinPara {
+}
+
+#why {
+  height: 900px;
+  background: #41bb18;
+  padding: 0px;
+}
+
+#whyCol2 {
+  height: 100%;
+}
+
+#whyRow {
+  height: 900px;
+}
+
+.missionClomn {
+  padding: 50px;
+}
+
+.missionContainer {
+  max-width: 1800px;
+  min-width: 280px;
+  width: 100%;
+}
+
+.missionDiv {
+  height: 100%;
+  width: 100%;
+  box-shadow: 8px 13px 25px rgba(64,63,63,0.3);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.missionBlock {
+}
+

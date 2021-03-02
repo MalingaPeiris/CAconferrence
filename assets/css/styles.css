@@ -74,7 +74,6 @@
   background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
   opacity: 1;
   border-radius: 5px;
-  box-shadow: 8px 13px 25px 2px #888484c5;
   filter: brightness(100%);
   padding: 2%;
   margin-right: 10px;
@@ -171,7 +170,6 @@
   color: #63595c;
   text-align: center;
   padding-right: 25px;
-  border: 2px solid #ffffff ;
   max-width: 400px;
   width: 100%;
   font-family: Montserrat, sans-serif;
@@ -179,6 +177,7 @@
   background: #ffffff;
   font-size: 14px;
   text-align: left;
+  border: 1px solid rgba(134,129,128,0.16) ;
 }
 
 @media (max-width: 576px) {
@@ -562,6 +561,7 @@
   line-height: 32px;
   color: #868180;
   font-family: Montserrat, sans-serif;
+  margin-top: 200px;
 }
 
 .organizerHr {
@@ -627,7 +627,6 @@
   border: 2px solid #41bb18 ;
   margin: 50px;
   margin-bottom: 50px;
-  box-shadow: 8px 13px 25px #D9D9D982;
 }
 
 .orgLetterHeading {
@@ -723,9 +722,8 @@
 }
 
 .galleryContainer {
-  max-width: 1800px;
-  min-width: 320px;
   width: 100%;
+  min-width: 320px;
 }
 
 .wwaDiv {
@@ -745,5 +743,28 @@
 #visionPara {
   text-align: center;
   margin-bottom: 100px;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+}
+
+.wwaImgDiv {
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
