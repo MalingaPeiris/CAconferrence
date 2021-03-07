@@ -3,12 +3,17 @@
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 8000,
+    autoplaySpeed: 5000,
     arrows: false,
     dots: false,
     pauseOnHover: false,
     responsive: [{
-      breakpoint: 768,
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3
+      }
+    },{
+      breakpoint: 992,
       settings: {
         slidesToShow: 2
       }

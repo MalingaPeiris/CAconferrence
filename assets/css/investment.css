@@ -45,23 +45,12 @@
 }
 
 .investmentAmountDiv {
-  max-width: 540px;
+  max-width: 100%;
   width: 100%;
-  min-width: 320px;
-  height: 250px;
+  min-width: 100%;
+  height: 200px;
   background: #f7f7f7;
-}
-
-.investmentAmountDiv:hover {
-  max-width: 540px;
-  width: 100%;
-  min-width: 320px;
-  height: 250px;
-  background: #f7f7f7;
-  cursor: pointer;
-  background-image: url(../../assets/img/micheile-henderson-lZ_4nPFKcV8-unsplash.jpg);
-  color: #ffffff;
-  object-fit: contain;
+  border: 1px solid rgb(255,255,255) ;
 }
 
 .investmentAmountPara {
@@ -69,11 +58,13 @@
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   margin-bottom: 0px;
+  text-align: center;
+  font-size: 34px;
 }
 
 .investmentAmountDescPara {
   color: #868180;
-  font-size: 25px;
+  font-size: 18px;
   font-family: Poppins, sans-serif;
   margin-bottom: 10px;
 }
@@ -82,5 +73,109 @@
   font-size: 16px;
   color: #216249;
   margin-top: -10px;
+}
+
+.investmentCategoryDiv {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .investmentCategoryDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.investmentLocalDiv {
+  width: 100%;
+}
+
+#localDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#overseeaDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.investmentBlock {
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+.investmentRegCol {
+  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  padding: 3%;
+  border-radius: 5px;
+  opacity: 1;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  position: relative;
+  background-size: 200%;
+  animation: change 0.1s infinite alternate;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#investmentCalHeading {
+  color: #216249;
+}
+
+@media (max-width: 576px) {
+  #investmentCalHeading {
+    color: #216249;
+    font-size: 24px;
+  }
+}
+
+.fa.fa-calendar {
+  color: #41bb18;
+  font-size: 36px;
+}
+
+.calendarCol {
+  padding: 20px;
+}
+
+.calDiv {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.calDiv:hover {
+  padding: 30px;
+  background: rgba(65,187,24,0.3);
+  box-shadow: 8px 13px 25px #D9D9D982;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.calDIvMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #41bb18;
+}
+
+#investmentRegHr {
+  width: 80%;
 }
 

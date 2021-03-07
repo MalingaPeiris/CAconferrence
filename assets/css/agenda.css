@@ -60,6 +60,8 @@
 
 .agendaSessionTimeDiv {
   margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 576px) {
@@ -82,6 +84,7 @@
   font-family: Poppins, sans-serif;
   letter-spacing: 1px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .agendaWatchButton {
@@ -225,6 +228,15 @@
 }
 
 #breakHeading {
+  text-align: center;
+}
+
+.agendaWatchButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#sessionTime {
   text-align: center;
 }
 

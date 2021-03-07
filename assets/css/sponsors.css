@@ -3,3 +3,11 @@
   margin-bottom: 100px;
 }
 
+.sponsorImage {
+  max-width: 1200px;
+  min-width: 280px;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 100px;
+}
+

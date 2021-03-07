@@ -14,31 +14,16 @@ p.text-countdown {
 
 .boxed-countdown p.text-countdown {
   padding: .5rem 0 .6rem;
-  background: rgba(0,244,24,0.4);
+  background: rgba(33,98,73,0.8);
   margin: 0;
   border-color: rgba(255,255,255,0.8);
 }
 
 .cdSecttion {
-  margin-top: 100px;
+  margin-top: 0px;
   max-width: 1920px;
   min-width: 320px;
   width: 100%;
-  height: 800px;
-  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255,0.1), rgb(33,98,73,0.2), rgb(65,187,24,0.6));
-  position: relative;
-  background-size: 200%;
-  animation: change 10s infinite alternate;
-  bottom: 100px;
-}
-
-@keyframes change {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
 }
 
 .text-countdown.rounded-bottom {
@@ -114,5 +99,56 @@ p.text-countdown {
     font-family: cursive;
     font-size: 24px;
   }
+}
+
+#EventCount1 {
+  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  position: relative;
+  background-size: 300%;
+  animation: change 5s infinite alternate;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-radius: 10px;
+}
+
+#EventCount2 {
+  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  position: relative;
+  background-size: 300%;
+  animation: change 5.5s infinite alternate;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-radius: 10px;
+}
+
+#EventCount3 {
+  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  position: relative;
+  background-size: 300%;
+  animation: change 6s infinite alternate;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-radius: 10px;
+}
+
+#EventCount4 {
+  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  position: relative;
+  background-size: 300%;
+  animation: change 6.5s infinite alternate;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-radius: 10px;
+}
+
+#EventCount5 {
+  background: repeating-linear-gradient(-43deg, #41bb18 -322%, #216249 -159%, rgb(255,255,255), #216249, #41bb18);
+  position: relative;
+  background-size: 300%;
+  animation: change 7s infinite alternate;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-radius: 10px;
+}
+
+.eventCountContainer {
+  max-width: 1800px;
+  min-width: 320px;
+  width: 100%;
 }
 

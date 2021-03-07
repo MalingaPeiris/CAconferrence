@@ -113,6 +113,17 @@
   max-width: 250px;
 }
 
+.sliderSessionImg:hover {
+  width: 250px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  background-size: 200%;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform ease-in 450ms;
+}
+
 .sliderSessionImg {
   width: 250px;
   object-fit: contain;
@@ -126,6 +137,7 @@
   margin-bottom: 0px;
   font-size: 12px;
   max-width: 250px;
+  margin-top: 10px;
 }
 
 .sliderSessionName {
@@ -184,21 +196,22 @@
   padding-top: 200px;
 }
 
-@media (max-width: 576px) {
-  .speakerHeading {
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    color: #63595c;
-    margin-bottom: 0px;
-  }
-}
-
 .speakerHeading {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #63595c;
   margin-bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  .speakerHeading {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #63595c;
+    margin-bottom: 0px;
+  }
 }
 
 .speakerPara {
@@ -217,5 +230,20 @@
 }
 
 .loadingGif {
+}
+
+.sliderSessionImgDiv {
+  overflow: hidden;
+  max-width: 250px;
+  min-width: 250px;
+  width: 100%;
+  transition: transform ease-in-out 450ms;
+  border-radius: 5px;
+  object-fit: contain;
+  max-height: 250px;
+  box-shadow: 8px 13px 25px #D9D9D982;
+}
+
+.customer-logos {
 }
 

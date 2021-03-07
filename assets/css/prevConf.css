@@ -1,0 +1,27 @@
+.previousConfBlock {
+  margin-top: 200px;
+}
+
+.prevConfLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.prevConfCol1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prevConfHeading {
+  font-size: 60px;
+  color: #216249;
+}
+
+@media (max-width: 768px) {
+  .prevConfHeading {
+    font-size: 40px;
+  }
+}
+

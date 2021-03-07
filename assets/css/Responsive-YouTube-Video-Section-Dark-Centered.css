@@ -48,6 +48,18 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .ytControlButton {
+    color: #ffffff;
+    background: rgba(97,89,92,0);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transform: scale(0.75);
+  }
+}
+
 .ytControlButton:hover {
   color: #41bb18;
   background: rgba(255,255,255,0);
@@ -80,6 +92,19 @@
   margin-right: 20px;
 }
 
+@media (max-width: 768px) {
+  .ytFeedBackButton {
+    color: #ffffff;
+    background: rgba(97,89,92,0);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transform: scale(0.75);
+  }
+}
+
 .ytFeedBackButton:hover {
   color: #41bb18;
   background: rgba(255,255,255,0);
@@ -94,5 +119,13 @@
 
 .ytFeedBackSupportMainPara {
   color: #41bb18;
+}
+
+.fa-comment {
+  font-size: 24px;
+}
+
+#ytResources {
+  margin-left: 20px;
 }
 

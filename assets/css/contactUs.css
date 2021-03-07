@@ -1,63 +1,229 @@
-#contactUsPhone {
-  border: 1px solid #cbcbcb;
-}
-
-#contactUsSubject {
-  border: 1px solid #cbcbcb;
-}
-
-#contactUsEmail {
-  border: 1px solid #cbcbcb;
-}
-
-#contactUsFullName {
-  border: 1px solid #cbcbcb;
-  max-width: 550px;
-}
-
-#contactUsMessage {
-  border: 1px solid #cbcbcb;
-  height: 150px;
-  display: flex;
-  text-align: start;
-  align-items: start;
-  resize: none;
-  max-width: 545px;
-  min-width: 250px;
+#contactUsHeadingBlock {
+  max-width: 1920px;
   width: 100%;
+  margin-top: 8%;
 }
 
-#contactUsSendButton {
-  margin-top: 10px;
-  opacity: 1;
-  background-color: #ffff;
-  border-radius: 5px;
-  font-size: 16px;
+#contactUsHeadingColumn {
 }
 
-#contactUsSendButton:hover {
-  margin-top: 10px;
-  opacity: 1;
-  background-color: #41bb18;
-  border-radius: 5px;
-  font-size: 16px;
-  color: #ffffff;
+#contactUsHeadingPara {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #434343;
 }
 
-.contactUsTxt {
-  max-width: 850px;
-  min-width: 250px;
-  width: 100%;
-  color: #63595c;
+@media (max-width: 576px) {
+  #contactUsHeadingPara {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 26px;
+  }
+}
+
+#contactUsHeadingDecsColumn {
+}
+
+@media (max-width: 576px) {
+  #contactUsDescPara {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+}
+
+#contactUsDescPara {
   text-align: center;
-  padding-right: 25px;
-  border: 2px solid #ffffff;
-  max-width: 400px;
-  width: 100%;
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 0;
+  color: rgb(67,67,67);
+}
+
+.iconDiv {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 14px #00000029;
+  margin-right: 30px;
+  border-style: solid;
+  border-color: rgb(255,255,255);
   background: #ffffff;
-  font-size: 14px;
-  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .iconDiv {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 14px #00000029;
+    margin: 0;
+    border-style: solid;
+    border-color: rgb(255,255,255);
+  }
+}
+
+#contactUsIcon {
+  font-size: 20px;
+}
+
+.contactUsDetailsDiv {
+  display: flex;
+  margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+  .contactUsDetailsDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .contactUsDetail {
+    margin-top: 20px;
+  }
+}
+
+.contactUsDetail {
+}
+
+.contactUsDetailHeading {
+  color: #216249;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 576px) {
+  .contactUsDetailHeading {
+    color: #216249;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .contactUsDetailPara {
+    color: #63595c;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.contactUsDetailPara {
+  color: #63595c;
+  font-family: Poppins, sans-serif;
+}
+
+@media (min-width: 576px) {
+  .contactUsDetailPara {
+    color: #868180;
+    font-family: Poppins, sans-serif;
+    text-align: left;
+  }
+}
+
+#contactUsContainer1 {
+}
+
+.contactUsFormDiv {
+  width: 100%;
+  height: 90%;
+  background: rgba(255,255,255,0.72);
+  margin-top: 40px;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+#contactUsFormBlock {
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+.h1, h1 {
+}
+
+.contactUsFormHeading {
+  color: #216249;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#contatcUsContainer2 {
+  max-width: 1000px;
+  width: 100%;
+  min-width: 200px;
+}
+
+.contactUsFormInput {
+  background: rgba(255,255,255,0);
+  color: #434343;
+  border-style: none;
+  border-bottom: 1px solid #434343 ;
+  margin-top: -5px;
+  max-height: 100px;
+}
+
+.contactUsInputPara {
+  margin: 0;
+  margin-top: 10px;
+}
+
+#contactUsFormButton {
+  margin-top: 20px;
+  max-width: 100px;
+  max-height: 50px;
+  height: 100%;
+  background: #216249;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contactUsBlock {
+  max-width: 1920px;
+  min-width: 280px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: url(../../assets/img/pexels-alex-knight-2599244.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5%;
+  margin-top: 200px;
+}
+
+.fa.fa-facebook-official {
+  font-size: 30px;
+  color: rgb(55,86,167);
+}
+
+.fa.fa-linkedin-square {
+  font-size: 30px;
+  color: rgb(55,86,167);
+}
+
+.fa.fa-instagram {
+  font-size: 30px;
+  color: rgb(227,58,47);
+}
+
+.contactUsContainer {
+  background: rgba(255,255,255,0.9);
+  border-radius: 10px;
+}
+
+.contactUsRow {
+  padding: 3%;
 }
 

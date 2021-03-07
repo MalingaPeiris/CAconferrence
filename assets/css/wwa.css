@@ -115,8 +115,20 @@
   box-shadow: 8px 13px 25px rgba(64,63,63,0.3);
   border-radius: 10px;
   padding: 40px;
+  transition-delay: 2s;
 }
 
 .missionBlock {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.visionParaDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  margin-top: 20px;
 }
 
