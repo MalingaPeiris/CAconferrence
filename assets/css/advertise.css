@@ -1,0 +1,54 @@
+.advertiseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .advertiseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+.adImage {
+  max-width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 8px 13px 25px #D9D9D982;
+}
+
+.adMainDiv {
+  margin: 30px;
+}
+
+.adSocialLink {
+  color: #9b235d;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.ion-social-linkedin {
+  color: rgb(35,141,155);
+}
+
+.adSocialDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.ion-social-youtube {
+  color: rgb(255,0,0);
+}
+
+.ion-social-instagram {
+}
+
