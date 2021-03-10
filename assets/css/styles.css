@@ -818,3 +818,7 @@ html {
   cursor: pointer;
 }
 
+#termsDiv {
+  margin-bottom: 0px;
+}
+

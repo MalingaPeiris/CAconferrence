@@ -26,6 +26,16 @@ p.text-countdown {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  .cdSecttion {
+    margin-top: 0px;
+    max-width: 1920px;
+    min-width: 320px;
+    width: 100%;
+    transform: scale(0.7);
+  }
+}
+
 .text-countdown.rounded-bottom {
 }
 
