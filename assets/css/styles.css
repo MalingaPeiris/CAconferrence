@@ -790,3 +790,31 @@ html {
   margin-top: 100px;
 }
 
+#termsCheckPara {
+  color: rgb(255,255,255);
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+  line-height: 11px;
+}
+
+.termsConditionDiv {
+  margin-top: 20px;
+}
+
+#termsCheck {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.termsLink {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.termsLink:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  cursor: pointer;
+}
+
